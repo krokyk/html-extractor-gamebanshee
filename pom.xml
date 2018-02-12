@@ -15,7 +15,7 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<log4j.version>2.10.0</log4j.version>
 		<junit.version>4.12</junit.version>
-		<kroky-commons.version>1.0</kroky-commons.version>
+		<kroky-commons-html-utils.version>1.0</kroky-commons-html-utils.version>
 		<maven-jar-plugin.version>3.0.2</maven-jar-plugin.version>
 		<libs.dir>libs</libs.dir>
 	</properties>
@@ -57,7 +57,6 @@
 		</plugins>
 	</build>
 
-
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.logging.log4j</groupId>
@@ -71,8 +70,8 @@
 		</dependency>
 		<dependency>
 			<groupId>org.kroky</groupId>
-    <artifactId>kroky-commons</artifactId>
-    <version>${kroky-commons.version}</version>
+			<artifactId>kroky-commons-html-utils</artifactId>
+			<version>${kroky-commons-html-utils.version}</version>
 		</dependency>
 	</dependencies>
 
