@@ -58,7 +58,7 @@ public class Main {
         removeAdSection(extractRoot);
 
         // prepend the title to the very beginning of this extract
-        extractRoot.childNodes().get(0).before(titleElement.tagName("center"));
+        extractRoot.childNodes().get(0).before(titleElement.tagName("h2"));
 
         // make all urls absolute (i.e. http://<domain_name>/...)
         urlToAbsolute(extractRoot);
